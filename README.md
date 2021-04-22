@@ -74,7 +74,18 @@ SUB-SECTIONS
 #### **********
 
 1. MAIN SCREEN
+
+
+
+
+
+
+
+
+
+
 ![Pet hatching](https://github.com/Samuel36Sousa/COMP2430/blob/a89c476cd6c38841bee08e19d83bed7f1c0411a7/ReadMe%20Media/newHatching.gif)
+
    The opening screen of the app, the first thing the player sees.  
 	 It is a welcoming sight set inside of a home with furniture sprawled about.  
 	 There will be an egg which the player is incentivised to tap on in order to hatch their "Buddy".  
