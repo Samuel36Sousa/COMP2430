@@ -35,14 +35,14 @@ STEP 3 -> Create a new Kotlin project from within the Android Studio launcher an
 
 STEP 4 -> Create a new instance of a Virtual Device for the code to properly run onto
           ( Preferably a modern build such as Google Pixel 3 or above )
-					This may take a moment to complete
+	  This may take a moment to complete
 	
 STEP 5 -> Run the instance of the code within the VM build and wait for the OS to complete runtime configuration
-					One the app loads the VM will take over the runtime
+	  One the app loads the VM will take over the runtime
 					
 STEP 6 -> Enjoy the game!
-					In order to exit simply click the little "X" button in the VM sub-menu
-					Or click the red stop button in the actual compiler
+	  In order to exit simply click the little "X" button in the VM sub-menu
+	  Or click the red stop button in the actual compiler
 
 #### -----------------------------
 2. Installation Instructions
@@ -51,16 +51,16 @@ STEP 6 -> Enjoy the game!
 The following instructions have been divided into 5 easy to follow steps
 
 STEP 1 -> Download all of the app files from this gitHub
-					( See Section "4. Manifest" for complete list of all needed files )
+		( See Section "4. Manifest" for complete list of all needed files )
 
 STEP 2 -> Follow the first 4 steps from Section "1. Configuration Instructions" in order to set up the compiler and VM
 
 STEP 3 -> Allocate the files into a readible directory for the compiler to locate in order to properly import
 					
-STEP 4 ->	Add all neccessary files into the comipler / VM 
+STEP 4 -> Add all neccessary files into the comipler / VM 
 
 STEP 5 -> Run the VM in order to complete the runtime setup
-					( See steps 5 and 6 in Section "1. Configuration Instructions" for basic VM controls )
+		 ( See steps 5 and 6 in Section "1. Configuration Instructions" for basic VM controls )
 					
 #### -----------------------------
 3. Operating Instructions
@@ -77,21 +77,21 @@ SUB-SECTIONS
    The opening screen of the app, the first thing the player sees.  
 	 It is a welcoming sight set inside of a home with furniture sprawled about.  
 	 There will be an egg which the player is incentivised to tap on in order to hatch their "Buddy".  
-	 			- User activity by tapping the screen.  
+	 	- User activity by tapping the screen.  
 	 After the egg is hatched, the "Buddy" will be able to partake in the events of feeding and playing.  
 	 This screen acts as a main hub for the player to gaze upon their "Buddy" and take a pause every now and again.
 	 
 2. FOOD CORNER
 	 The following screen is the secondary function of the game, one of the two activities currently available to the player.  
 	 The player is incentivised to level their "Buddy" by the process of feeding it a multitude of foods.  
-	 			- User activity by tapping the screen, dragging food.  
+	 	- User activity by tapping the screen, dragging food.  
 	 After the "Buddy" has been fed, the player can choose to leave the screen or continue to feed the "Buddy".  
 	 Feeding increases the happiness of your "Buddy" and is highly encouraged.
 	 
 3. MINIGAME
    The following screen is the tertiary function of the game, the second of the two activities available to the player.  
 	 This acts as an endurance test for the "Buddy" as the objective is to navigate through narrow openings.  
-	 			- User activity by correctly timing tapping the screen.  
+	 	- User activity by correctly timing tapping the screen.  
 	 As the player successfully dodges the barriers, the score will increase as well as the speed of which the "Buddy" glides.  
 	 Playing this minigame increases the overall gliding speed and agility of the "Buddy" and is also highly encouraged.  
 	 
@@ -109,9 +109,37 @@ SUB-SECTIONS
 6. Bug List
 #### -----------------------------
 
+Current number of known bugs: 2
+
+1. Food Corner
+   - The current screen for the food corner is defunct for food selection, there is only one type of food to choose from and selecting it does nothing.
+   
+2. Minigame Bug
+   - When the player is in the minigame, if the player loses, switches to the home screen, then hatches the egg again in that order,
+     switching back to the minigame will result in a softlock where the game assumes the player has already lost and will become stuck
+     in an infinite loop.
+
 #### -----------------------------
 7. Troubleshooting Tips and Help
 #### -----------------------------
+
+SUB-SELECTION
+
+1. VM trouble
+	I. Loading
+		If the VM is not loading properly, simply delete the instance and create a new one, restart if nesseccary
+	II. Softlock
+		If the VM softlocks and runs in an unbreakable loop, delete the instance and create a new one
+	III. Gradle Error
+		If the VM crashes on open, create a new instance and run from the new one
+	
+2. Compiler Error
+	I. IDE error
+		If the IDE experiences an error, reformat the code in a new project file
+	II. Missing imports
+		If for some treason the IDE is missing (an) import(s) simply hit ctrl + alt + enter and apply any changes
+	III. Syntax
+		If the code is missing syntax redownload the files from gitHub and create a new directory for stroing them, then run
 
 #### -----------------------------
 8. Credits and Acknowledgements
