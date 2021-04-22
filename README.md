@@ -21,10 +21,10 @@
 
 The following instructions have been divided into 6 easy to follow steps
 
-STEP 1 -> Download and install Android Studio ver 4.1.2 // Runtime ver 1.8.0_242-release-1644-b01 amd64
-          Build # AI-201.8743.12.41.7042882 -- built on December 19, 2020
-          The Virtual Machine running should be OpenJDK 64-Bit Server VM by JetBrains s.r.o // powered by open-source software
-          Android Studio is distributed by JetBrains LTD and can be found under their web address jetbrains.com 
+STEP 1 -> 1. Download and install Android Studio ver 4.1.2 // Runtime ver 1.8.0_242-release-1644-b01 amd64
+          2. Build # AI-201.8743.12.41.7042882 -- built on December 19, 2020
+          3. The Virtual Machine running should be OpenJDK 64-Bit Server VM by JetBrains s.r.o // powered by open-source software
+          4. Android Studio is distributed by JetBrains LTD and can be found under their web address jetbrains.com 
 
 STEP 2 -> Configure the Virtual Machine to run on your current version of Windows
           This can be done by entering the system BIOS and enabling VM capabilities
