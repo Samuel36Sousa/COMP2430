@@ -94,6 +94,17 @@ SUB-SECTIONS
 	 This screen acts as a main hub for the player to gaze upon their "Buddy" and take a pause every now and again.
 	 
 2. FOOD CORNER
+
+
+
+
+
+
+
+
+
+
+
 ![Food screen](https://github.com/Samuel36Sousa/COMP2430/blob/a89c476cd6c38841bee08e19d83bed7f1c0411a7/ReadMe%20Media/foodCorner.PNG)
 	 The following screen is the secondary function of the game, one of the two activities currently available to the player.  
 	 The player is incentivised to level their "Buddy" by the process of feeding it a multitude of foods.  
@@ -102,6 +113,17 @@ SUB-SECTIONS
 	 Feeding increases the happiness of your "Buddy" and is highly encouraged.
 	 
 3. MINIGAME
+
+
+
+
+
+
+
+
+
+
+
 ![Game being played](https://github.com/Samuel36Sousa/COMP2430/blob/a89c476cd6c38841bee08e19d83bed7f1c0411a7/ReadMe%20Media/newPlaying.gif)
    	 The following screen is the tertiary function of the game, the second of the two activities available to the player.  
 	 This acts as an endurance test for the "Buddy" as the objective is to navigate through narrow openings.  
