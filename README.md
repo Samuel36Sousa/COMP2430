@@ -15,9 +15,9 @@
 ### =============================
 
 
-### -----------------------------
+#### -----------------------------
 1. Configuration Instructions
-### -----------------------------
+#### -----------------------------
 
 The following instructions have been divided into 6 easy to follow steps
 
@@ -44,9 +44,9 @@ STEP 6 -> Enjoy the game!
 					In order to exit simply click the little "X" button in the VM sub-menu
 					Or click the red stop button in the actual compiler
 
-### -----------------------------
+#### -----------------------------
 2. Installation Instructions
-### -----------------------------
+#### -----------------------------
 
 The following instructions have been divided into 5 easy to follow steps
 
@@ -62,16 +62,16 @@ STEP 4 ->	Add all neccessary files into the comipler / VM
 STEP 5 -> Run the VM in order to complete the runtime setup
 					( See steps 5 and 6 in Section "1. Configuration Instructions" for basic VM controls )
 					
-### -----------------------------
+#### -----------------------------
 3. Operating Instructions
-### -----------------------------
+#### -----------------------------
 
 SUB-SECTIONS
-### ---
+#### **********
 1. MAIN SCREEN
 2. FOOD CORNER
 3. MINIGAME
-### ---
+#### **********
 
 1. MAIN SCREEN
    The opening screen of the app, the first thing the player sees.  
@@ -95,27 +95,27 @@ SUB-SECTIONS
 	 As the player successfully dodges the barriers, the score will increase as well as the speed of which the "Buddy" glides.  
 	 Playing this minigame increases the overall gliding speed and agility of the "Buddy" and is also highly encouraged.  
 	 
-### -----------------------------
+#### -----------------------------
 4. Manifest -- List of all Neccessary Files for Operation
-### -----------------------------
+#### -----------------------------
 
-### -----------------------------
+#### -----------------------------
 5. Copyright Information
-### -----------------------------
+#### -----------------------------
 
 			CopyRight of Samuel Sousa and Jacob Lavoie -- "Battle Buddies" for android -- April 22, 2021
 			
-### -----------------------------
+#### -----------------------------
 6. Bug List
-### -----------------------------
+#### -----------------------------
 
-### -----------------------------
+#### -----------------------------
 7. Troubleshooting Tips and Help
-### -----------------------------
+#### -----------------------------
 
-### -----------------------------
+#### -----------------------------
 8. Credits and Acknowledgements
-### -----------------------------
+#### -----------------------------
 
 PROJECT DIRECTORS: Samuel Sousa and Jacob Lavoie
 
