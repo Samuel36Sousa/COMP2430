@@ -1,4 +1,5 @@
 # COMP-2430-WDE Final Project WINTER 2021
+# Title: Battle Buddies!
 ## By Samuel Sousa and Jacob Lavoie
 ## Hatch Your Own Virtual Pet!
 
