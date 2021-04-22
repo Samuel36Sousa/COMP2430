@@ -21,10 +21,10 @@
 
 The following instructions have been divided into 6 easy to follow steps
 
-STEP 1 -> 1. Download and install Android Studio ver 4.1.2 // Runtime ver 1.8.0_242-release-1644-b01 amd64
-          2. Build # AI-201.8743.12.41.7042882 -- built on December 19, 2020
-          3. The Virtual Machine running should be OpenJDK 64-Bit Server VM by JetBrains s.r.o // powered by open-source software
-          4. Android Studio is distributed by JetBrains LTD and can be found under their web address jetbrains.com 
+STEP 1 -> Download and install Android Studio ver 4.1.2 // Runtime ver 1.8.0_242-release-1644-b01 amd64
+          Build # AI-201.8743.12.41.7042882 -- built on December 19, 2020
+          The Virtual Machine running should be OpenJDK 64-Bit Server VM by JetBrains s.r.o // powered by open-source software
+          Android Studio is distributed by JetBrains LTD and can be found under their web address jetbrains.com 
 
 STEP 2 -> Configure the Virtual Machine to run on your current version of Windows
           This can be done by entering the system BIOS and enabling VM capabilities
@@ -89,7 +89,7 @@ SUB-SECTIONS
 	 Feeding increases the happiness of your "Buddy" and is highly encouraged.
 	 
 3. MINIGAME
-   The following screen is the tertiary function of the game, the second of the two activities available to the player.  
+   	 The following screen is the tertiary function of the game, the second of the two activities available to the player.  
 	 This acts as an endurance test for the "Buddy" as the objective is to navigate through narrow openings.  
 	 	- User activity by correctly timing tapping the screen.  
 	 As the player successfully dodges the barriers, the score will increase as well as the speed of which the "Buddy" glides.  
@@ -98,6 +98,26 @@ SUB-SECTIONS
 #### -----------------------------
 4. Manifest -- List of all Neccessary Files for Operation
 #### -----------------------------
+
+LIST OF DIRECTORIES:
+
+/apps/src/main/res/drawable/ -> Directory containing all custom images used in the project
+
+FoodFragment.kt -> Kotlin code for the logic behind the Food fragment
+
+fragment_food.xml -> xml code for the layout of the food fragment
+
+GameFragment.kt -> Kotlin code for the logic behind the game fragment.  Includes a coroutine for the game logic such as moving the bird and the obstacles.  Also includes a class 		     called GamePet for creating objects that will fall, be able to flap, and collide with the onstacles.
+
+fragment_game.xml -> xml code for the layout of the game fragment
+
+HomeFragment.kt -> Kotlin code for the logic bahind the home fragment.  Initializes the global variable isEgg which tracks whether the pet is still in an egg.  Also includes the 		     code which allows the user to hatch the egg by tapping it.
+
+fragment_home.xml -> xml code for the layout of the home fragment
+
+MainActivity.kt -> Kotlin code for the logic behind the mainActivity.  The mainActivity method contains the 3 fragments for the other game screens and manages the interactions 	           between them.
+
+activity_main.xml -> xml code for the layout of the mainActivity.  Contains the other three fragments used in the app.
 
 #### -----------------------------
 5. Copyright Information
