@@ -2,7 +2,7 @@
 ## By Samuel Sousa and Jacob Lavoie
 ## Hatch Your Own Virtual Pet!
 
-![Pet hatching](https://github.com/Samuel36Sousa/COMP2430/blob/5e7c8f845f885e7c633b933808ece2e9dd3eba6e/ReadMe%20media/Playing.gif)
+![Pet hatching](https://github.com/Samuel36Sousa/COMP2430/blob/96bcc3a3c4ce372056a1322da7629a238c1ded98/ReadMe%20media/Hatching.gif)
 
 ![Game being played](https://github.com/Samuel36Sousa/COMP2430/blob/a571e77b4aef7accdd90baf59a179a1d19c617c6/ReadMe%20media/Playing.gif)
 
