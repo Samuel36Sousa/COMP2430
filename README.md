@@ -134,7 +134,7 @@ SUB-SELECTION
 		If the VM crashes on open, create a new instance and run from the new one
 	
 2. Compiler Error
-	I. IDE error
+	\nI. IDE error
 		If the IDE experiences an error, reformat the code in a new project file
 	II. Missing imports
 		If for some treason the IDE is missing (an) import(s) simply hit ctrl + alt + enter and apply any changes
