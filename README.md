@@ -21,7 +21,7 @@
 
 The following instructions have been divided into 6 easy to follow steps
 
-STEP 1 -> Download and install Android Studio ver 4.1.2 // Runtime ver 1.8.0_242-release-1644-b01 amd64
+STEP 1 -> Download and install Android Studio ver. 4.1.2 // Runtime ver. 1.8.0_242-release-1644-b01 amd64
           Build # AI-201.8743.12.41.7042882 -- built on December 19, 2020
           The Virtual Machine running should be OpenJDK 64-Bit Server VM by JetBrains s.r.o // powered by open-source software
           Android Studio is distributed by JetBrains LTD and can be found under their web address jetbrains.com 
@@ -55,9 +55,9 @@ STEP 1 -> Download all of the app files from this gitHub
 
 STEP 2 -> Follow the first 4 steps from Section "1. Configuration Instructions" in order to set up the compiler and VM
 
-STEP 3 -> Allocate the files into a readible directory for the compiler to locate in order to properly import
+STEP 3 -> Allocate the files into a readable directory for the compiler to locate in order to properly import
 					
-STEP 4 -> Add all neccessary files into the comipler / VM 
+STEP 4 -> Add all necessary files into the compiler / VM 
 
 STEP 5 -> Run the VM in order to complete the runtime setup
 		 ( See steps 5 and 6 in Section "1. Configuration Instructions" for basic VM controls )
@@ -96,7 +96,7 @@ SUB-SECTIONS
 	 Playing this minigame increases the overall gliding speed and agility of the "Buddy" and is also highly encouraged.  
 	 
 #### -----------------------------
-4. Manifest -- List of all Neccessary Files for Operation
+4. Manifest -- List of all Necessary Files for Operation
 #### -----------------------------
 
 LIST OF DIRECTORIES:
@@ -107,11 +107,11 @@ FoodFragment.kt -> Kotlin code for the logic behind the Food fragment
 
 fragment_food.xml -> xml code for the layout of the food fragment
 
-GameFragment.kt -> Kotlin code for the logic behind the game fragment.  Includes a coroutine for the game logic such as moving the bird and the obstacles.  Also includes a class 		     called GamePet for creating objects that will fall, be able to flap, and collide with the onstacles.
+GameFragment.kt -> Kotlin code for the logic behind the game fragment.  Includes a coroutine for the game logic such as moving the bird and the obstacles.  Also includes a class 		     called GamePet for creating objects that will fall, be able to flap, and collide with the obstacles.
 
 fragment_game.xml -> xml code for the layout of the game fragment
 
-HomeFragment.kt -> Kotlin code for the logic bahind the home fragment.  Initializes the global variable isEgg which tracks whether the pet is still in an egg.  Also includes the 		     code which allows the user to hatch the egg by tapping it.
+HomeFragment.kt -> Kotlin code for the logic behind the home fragment.  Initializes the global variable isEgg which tracks whether the pet is still in an egg.  Also includes the 		     code which allows the user to hatch the egg by tapping it.
 
 fragment_home.xml -> xml code for the layout of the home fragment
 
@@ -123,7 +123,7 @@ activity_main.xml -> xml code for the layout of the mainActivity.  Contains the 
 5. Copyright Information
 #### -----------------------------
 
-			CopyRight of Samuel Sousa and Jacob Lavoie -- "Battle Buddies" for android -- April 22, 2021
+			Copyright of Samuel Sousa and Jacob Lavoie -- "Battle Buddies" for android -- April 22, 2021
 			
 #### -----------------------------
 6. Bug List
@@ -136,7 +136,7 @@ Current number of known bugs: 2
    
 2. Minigame Bug ->
    - When the player is in the minigame, if the player loses, switches to the home screen, then hatches the egg again in that order,
-     switching back to the minigame will result in a softlock where the game assumes the player has already lost and will become stuck
+     switching back to the minigame will result in a soft-lock where the game assumes the player has already lost and will become stuck
      in an infinite loop.
 
 #### -----------------------------
@@ -147,23 +147,23 @@ SUB-SELECTION
 
 1. VM trouble -> 
 	I. Loading -> 
-		If the VM is not loading properly, simply delete the instance and create a new one, restart if nesseccary -- 
+		If the VM is not loading properly, simply delete the instance and create a new one, restart if necessary
 		
-	II. Softlock -> 
-		If the VM softlocks and runs in an unbreakable loop, delete the instance and create a new one -- 
+	II. Soft-lock -> 
+		If the VM soft-locks and runs in an unbreakable loop, delete the instance and create a new one
 		
 	III. Gradle Error ->
 		If the VM crashes on open, create a new instance and run from the new one
 	
 2. Compiler Error -> 
 	I. IDE error -> 
-		If the IDE experiences an error, reformat the code in a new project file -- 
+		If the IDE experiences an error, reformat the code in a new project file
 		
 	II. Missing imports -> 
-		If for some treason the IDE is missing (an) import(s) simply hit ctrl + alt + enter and apply any changes -- 
+		If for some treason the IDE is missing (an) import(s) simply hit ctrl + alt + enter and apply any changes
 		
 	III. Syntax -> 
-		If the code is missing syntax redownload the files from gitHub and create a new directory for stroing them, then run
+		If the code is missing syntax redownload the files from gitHub and create a new directory for storing them, then run
 
 #### -----------------------------
 8. Credits and Acknowledgements
