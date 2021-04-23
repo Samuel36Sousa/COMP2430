@@ -74,6 +74,18 @@ SUB-SECTIONS
 #### **********
 
 1. MAIN SCREEN -> 
+
+
+
+
+
+
+
+
+
+
+![Pet hatching](https://github.com/Samuel36Sousa/COMP2430/blob/1e5ccfa2639206f633b9a8ef7ba65a94f87e4918/ReadMe%20Media/newHatching.gif)
+
    The opening screen of the app, the first thing the player sees.  
 	 It is a welcoming sight set inside of a home with furniture sprawled about.  
 	 There will be an egg which the player is incentivised to tap on in order to hatch their "Buddy".  
@@ -82,14 +94,38 @@ SUB-SECTIONS
 	 This screen acts as a main hub for the player to gaze upon their "Buddy" and take a pause every now and again.
 	 
 2. FOOD CORNER -> 
-	 The following screen is the secondary function of the game, one of the two activities currently available to the player.  
+
+
+
+
+
+
+
+
+
+
+![Food screen](https://github.com/Samuel36Sousa/COMP2430/blob/1e5ccfa2639206f633b9a8ef7ba65a94f87e4918/ReadMe%20Media/foodCorner.PNG)
+
+The following screen is the secondary function of the game, one of the two activities currently available to the player.  
 	 The player is incentivised to level their "Buddy" by the process of feeding it a multitude of foods.  
 	 	- User activity by tapping the screen, dragging food.  
 	 After the "Buddy" has been fed, the player can choose to leave the screen or continue to feed the "Buddy".  
 	 Feeding increases the happiness of your "Buddy" and is highly encouraged.
 	 
 3. MINIGAME -> 
-   	 The following screen is the tertiary function of the game, the second of the two activities available to the player.  
+
+
+
+
+
+
+
+
+
+
+![Game being played](https://github.com/Samuel36Sousa/COMP2430/blob/1e5ccfa2639206f633b9a8ef7ba65a94f87e4918/ReadMe%20Media/newPlaying.gif)
+
+ The following screen is the tertiary function of the game, the second of the two activities available to the player.  
 	 This acts as an endurance test for the "Buddy" as the objective is to navigate through narrow openings.  
 	 	- User activity by correctly timing tapping the screen.  
 	 As the player successfully dodges the barriers, the score will increase as well as the speed of which the "Buddy" glides.  
@@ -174,10 +210,3 @@ PROJECT DIRECTORS: Samuel Sousa and Jacob Lavoie
 COMPILER USED FOR CODE RUNTIME: Android Studio 4.1.2 // Distributed and Created by JetBrains LTD as of December 19, 2020
 
 SOFTWARE USED FOR ARTWORK: Aseprite 1.2.16 // Distributed by Igara Studio // Created by David Capello and Gaspar Capello
-	 
-
-![Pet hatching](https://github.com/Samuel36Sousa/COMP2430/blob/96bcc3a3c4ce372056a1322da7629a238c1ded98/ReadMe%20media/Hatching.gif)
-
-![Game being played](https://github.com/Samuel36Sousa/COMP2430/blob/a571e77b4aef7accdd90baf59a179a1d19c617c6/ReadMe%20media/Playing.gif)
-
-![Food screen](https://github.com/Samuel36Sousa/COMP2430/blob/5e7c8f845f885e7c633b933808ece2e9dd3eba6e/ReadMe%20media/Feed.PNG)
